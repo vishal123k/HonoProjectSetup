@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // 127.0.0.1 use karna best practice hai local dev ke liye
 const API = axios.create({
-  baseURL: ' https://backend.vishalk38916.workers.dev/api',
+  baseURL: ' https://backend.vishalk38916.workers.dev',
 });
 
 // Har request ke sath Token bhejna
