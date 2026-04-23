@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-04-23",
+  "d1_databases": [
+    {
+      "binding": "DB", 
+      "database_name": "B2B-db",
+      "database_id": "c1267477-3c49-4d5f-8310-f6e27ecc649d"
+    }
+  ]
+}
